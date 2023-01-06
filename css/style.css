@@ -271,10 +271,16 @@ body {
   content: "";
   position: absolute;
   background-color: var(--second-color);
-  width: 80px;
-  height: 100%;
-  top: 0px;
-  right: 0;
+  width: 100px;
+  height: calc(100% + 100px);
+  top: -50px;
+  right: 25px;
+  z-index: -1;
+}
+@media (max-width: 1199px) {
+  .services .services-content .image-small-screen {
+    display: none;
+  }
 }
 /* end services */
 /* new line edit*/
