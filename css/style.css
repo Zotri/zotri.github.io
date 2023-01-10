@@ -18,6 +18,7 @@
   font-weight: 800;
   letter-spacing: -3px;
   margin: 0;
+  letter-spacing: 2px;
 }
 /* + p to impact only the next p tag  */
 .special-heading + p {
@@ -31,7 +32,8 @@
     font-size: 60px;
   }
   .special-heading + p {
-    margin: -20px;
+    margin: -10px;
+    font-size: 16px;
   }
 }
 /* end shared css components */
@@ -243,7 +245,12 @@ body {
   display: flex;
   margin-bottom: 40px;
   text-align: center;
-  gap: 10px;
+  padding-left: 50px;
+  margin-block-end: auto;
+  gap: 60px;
+  justify-content: space-evenly;
+  padding-right: 40px;
+  align-items: center;
 }
 @media (max-wdith: 767px) {
   .services .services-content .srv {
@@ -255,7 +262,7 @@ body {
   flex-basis: 60px;
 }
 .services .services-content .srv .text h3 {
-  margin: 0 0 20px;
+  margin: 0 0 60px;
 }
 .services .services-content .srv .text {
   /* take remaining space */
@@ -411,6 +418,7 @@ body {
   color: var(--second-color);
   letter-spacing: -2px;
   margin-bottom: 15px;
+  letter-spacing: 1px;
 }
 .contact .info .link {
   display: block;
@@ -428,14 +436,16 @@ body {
 }
 .contact .container .social .google-maps-icon {
   margin-left: 10px;
-  width: 25px;
+  width: 35px;
   position: absolute;
-  top: -4px;
+  top: 40px;
+  left: 150px;
 }
 @media (max-width: 767px) {
   .contact .info .label,
   .contact .info .link {
     font-size: 18px;
+    letter-spacing: 1px;
   }
 }
 
