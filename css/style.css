@@ -22,7 +22,7 @@
 }
 /* + p to impact only the next p tag  */
 .special-heading + p {
-  margin: -30px 0 0;
+  margin: -10px 0 0;
   font-size: 20px;
   text-align: center;
   color: #797979;
@@ -439,13 +439,47 @@ body {
   width: 35px;
   position: absolute;
   top: 40px;
-  left: 150px;
+  right: 550px;
 }
 @media (max-width: 767px) {
   .contact .info .label,
   .contact .info .link {
     font-size: 18px;
     letter-spacing: 1px;
+  }
+  .contact .container .social .google-maps-icon {
+    margin-left: 10px;
+    width: 35px;
+    position: absolute;
+    top: 40px;
+    left: 150px;
+  }
+}
+@media (max-width: 1198px) {
+  .contact .container .social .google-maps-icon {
+    margin-left: 10px;
+    width: 35px;
+    position: absolute;
+    top: 40px;
+    left: 450px;
+  }
+}
+@media (max-width: 989px) {
+  .contact .container .social .google-maps-icon {
+    margin-left: 10px;
+    width: 35px;
+    position: absolute;
+    top: 40px;
+    left: 330px;
+  }
+}
+@media (max-width: 768px) {
+  .contact .container .social .google-maps-icon {
+    margin-left: 10px;
+    width: 35px;
+    position: absolute;
+    top: 40px;
+    left: 150px;
   }
 }
 
