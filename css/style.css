@@ -553,6 +553,20 @@ body {
   .call-icon-link {
     font-size: 20px;
     padding: 0;
+    text-decoration: none;
+  }
+}
+@media (max-width: 336px) {
+  .header-text {
+    display: none;
+  }
+  .call-icon {
+    padding: 0px;
+  }
+  .call-icon-link {
+    font-size: 20px;
+    padding: 0;
+    text-decoration: none;
   }
 }
 
